@@ -64,13 +64,18 @@ All analysis is performed using **Google Colab notebooks**.
 ```
 ds_usha/
 ├── notebook_1.ipynb        # Main analysis notebook (Google Colab)
+
 ├── csv_files/              # Raw and processed datasets
+
 ├── outputs/                # Saved visualizations and charts
+
 ├── ds_report.pdf           # Final summarized insights and conclusions
+
 └── README.md               # Project documentation
 ```
 
 ---
+
 
 ## 📈 Key Insights (Summary)
 
@@ -81,13 +86,16 @@ ds_usha/
 
 *(Detailed findings are available in `ds_report.pdf`.)*
 
+
 ---
+
 
 ## 📌 Conclusion
 
 This project demonstrates how combining **market sentiment data** with **historical trading data** can uncover meaningful behavioral patterns. Such insights can be valuable for **risk management**, **strategy optimization**, and **decision-making** in crypto trading environments.
 
 ---
+
 
 ## 👤 Author
 
