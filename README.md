@@ -4,8 +4,8 @@
 
  📌 Project Overview
 
-This project analyzes the relationship between **Bitcoin market sentiment (Fear & Greed Index)** and **trader behavior/performance** using historical trading data from **Hyperliquid**.
-The goal is to uncover patterns in **profitability, risk-taking, leverage usage, and trading volume** under different market sentiment conditions and derive insights that can support **smarter trading strategies**.
+This project analyzes the relationship between Bitcoin market sentiment (Fear & Greed Index) and trader behavior/performance using historical trading data from Hyperliquid.
+The goal is to uncover patterns in profitability, risk-taking, leverage usage, and trading volume under different market sentiment conditions and derive insights that can support smarter trading strategies.
 
 ---
 
@@ -13,12 +13,12 @@ The goal is to uncover patterns in **profitability, risk-taking, leverage usage,
 
  1️⃣ Bitcoin Market Sentiment Dataset
 
-* **Columns:** `Date`, `Classification` (Fear / Greed)
+* Columns: `Date`, `Classification` (Fear / Greed)
 * Represents overall market psychology on a daily basis.
 
  2️⃣ Historical Trader Data (Hyperliquid)
 
-* **Columns include:** `account`, `symbol`, `execution price`, `size`, `side`, `time`, `start position`, `event`, `closedPnL`, `leverage`, etc.
+* Columns include: `account`, `symbol`, `execution price`, `size`, `side`, `time`, `start position`, `event`, `closedPnL`, `leverage`, etc.
 * Provides detailed trade-level information for performance and behavior analysis.
 
 ---
