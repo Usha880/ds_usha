@@ -1,106 +1,98 @@
 ```markdown
 # 📈 Data Science Assignment – Trader Behavior & Market Sentiment Analysis
 
-## 📂 Project Structure
+
+## 📌 Project Overview
+
+This project analyzes the relationship between **Bitcoin market sentiment (Fear & Greed Index)** and **trader behavior/performance** using historical trading data from **Hyperliquid**.
+The goal is to uncover patterns in **profitability, risk-taking, leverage usage, and trading volume** under different market sentiment conditions and derive insights that can support **smarter trading strategies**.
+
+---
+
+## 📂 Datasets Used
+
+### 1️⃣ Bitcoin Market Sentiment Dataset
+
+* **Columns:** `Date`, `Classification` (Fear / Greed)
+* Represents overall market psychology on a daily basis.
+
+### 2️⃣ Historical Trader Data (Hyperliquid)
+
+* **Columns include:** `account`, `symbol`, `execution price`, `size`, `side`, `time`, `start position`, `event`, `closedPnL`, `leverage`, etc.
+* Provides detailed trade-level information for performance and behavior analysis.
+
+---
+
+## 🎯 Objective
+
+* Analyze how trader behavior changes during **Fear vs Greed** market conditions.
+* Evaluate differences in:
+
+  * Profit & Loss (PnL)
+  * Leverage usage
+  * Trade size and volume
+  * Risk-taking behavior
+* Identify hidden trends that can influence **data-driven trading decisions**.
+
+---
+
+## 🧠 Key Analysis Steps
+
+1. Data loading and preprocessing
+2. Data cleaning and type conversions
+3. Merging trader data with sentiment data by date
+4. Exploratory Data Analysis (EDA)
+5. Visualization of trader behavior under Fear vs Greed
+6. Interpretation of results and insights
+
+All analysis is performed using **Google Colab notebooks**.
+
+---
+
+## 📊 Tools & Technologies
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib / Seaborn
+* Google Colab
+
+---
+
+## 📁 Project Structure
 
 ```
-
-ds_<your_name>/
-
-├── notebook_1.ipynb
-
-├── notebook_2.ipynb (optional)
-
-├── csv_files/
-
-│   ├── historical_data.csv
-
-│   ├── fear_greed_index.csv
-
-├── outputs/
-
-│   ├── visualization_1.png
-
-│   ├── visualization_2.png
-
-│   ├── visualization_3.png
-
-├── ds_report.pdf
-
-└── README.md
-
+ds_usha/
+├── notebook_1.ipynb        # Main analysis notebook (Google Colab)
+├── csv_files/              # Raw and processed datasets
+├── outputs/                # Saved visualizations and charts
+├── ds_report.pdf           # Final summarized insights and conclusions
+└── README.md               # Project documentation
 ```
 
-## 📌 Overview  
-This project analyzes the relationship between **crypto trader behavior** and **Bitcoin market sentiment** (Fear/Greed Index).  
+---
 
-The objective is to identify patterns in:
+## 📈 Key Insights (Summary)
 
-- Profitability  
-- Leverage usage  
-- Trading volume  
-- Buy/Sell behavior  
-- Risk-taking tendencies  
+* Trader profitability and risk appetite vary significantly between **Fear** and **Greed** market phases.
+* Higher leverage and aggressive positions are more common during **Greed** periods.
+* Fear-driven markets tend to show reduced trade sizes and more conservative behavior.
+* Market sentiment acts as a strong contextual signal for understanding trader performance.
 
-…and understand how these metrics shift during **Fear**, **Greed**, and **Neutral** market conditions.
+*(Detailed findings are available in `ds_report.pdf`.)*
 
 ---
 
-## 📊 Datasets Used  
+## 📌 Conclusion
 
-### 1. **Hyperliquid Historical Trader Data**  
-Contains execution-level trading activity, including:  
-- Account  
-- Coin/Symbol  
-- Size (Tokens & USD)  
-- Side  
-- Closed PnL  
-- Fees  
-- Timestamps  
-- Position direction  
-
-### 2. **Bitcoin Fear & Greed Index**  
-Includes:  
-- Timestamp  
-- Sentiment value  
-- Classification (Fear, Greed, Neutral, etc.)
-
-Both datasets were cleaned and merged based on timestamp alignment.
+This project demonstrates how combining **market sentiment data** with **historical trading data** can uncover meaningful behavioral patterns. Such insights can be valuable for **risk management**, **strategy optimization**, and **decision-making** in crypto trading environments.
 
 ---
 
-## 🚀 How to Run This Project  
+## 👤 Author
 
-1. Open **notebook_1.ipynb** in **Google Colab**  
-2. Place the CSV files inside the `csv_files/` folder  
-3. Ensure correct paths when loading data  
-4. Run all cells sequentially  
-5. Visual outputs will be saved inside the `outputs/` directory  
-6. The final insights summary is provided in `ds_report.pdf`
-
----
-
-## 🧪 Techniques & Methods Used  
-
-- Data Cleaning & Preprocessing  
-- Missing Value Handling  
-- Timestamp Parsing & Alignment  
-- Merging Multi-Source Data  
-- Feature Engineering (PnL flags, volume measures, leverage signals)  
-- Sentiment Grouping  
-- Statistical & Visual Trend Analysis  
-- Interpretation of Market Behavior Patterns  
-
----
-
-## 📘 Deliverables  
-
-✔ Cleaned datasets  
-✔ Merged analysis-ready dataframe  
-✔ Exploratory Data Analysis (EDA)  
-✔ Multiple visualizations  
-✔ Final Report (`ds_report.pdf`)  
-✔ Structured GitHub repository following assignment standards  
+**Usha Mandapalli**
+Aspiring Data Scientist | Analytics Enthusiast
 
 ---
 
