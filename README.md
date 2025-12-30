@@ -25,14 +25,14 @@ The goal is to uncover patterns in **profitability, risk-taking, leverage usage,
 
  🎯 Objective
 
-* Analyze how trader behavior changes during **Fear vs Greed** market conditions.
+* Analyze how trader behavior changes during Fear vs Greed market conditions.
 * Evaluate differences in:
 
   * Profit & Loss (PnL)
   * Leverage usage
   * Trade size and volume
   * Risk-taking behavior
-* Identify hidden trends that can influence **data-driven trading decisions**.
+  * Identify hidden trends that can influence data-driven trading decisions.
 
 ---
 
@@ -45,7 +45,7 @@ The goal is to uncover patterns in **profitability, risk-taking, leverage usage,
 5. Visualization of trader behavior under Fear vs Greed
 6. Interpretation of results and insights
 
-All analysis is performed using **Google Colab notebooks**.
+All analysis is performed using Google Colab notebooks.
 
 ---
 
@@ -79,12 +79,12 @@ ds_usha/
 
  📈 Key Insights (Summary)
 
-* Trader profitability and risk appetite vary significantly between **Fear** and **Greed** market phases.
-* Higher leverage and aggressive positions are more common during **Greed** periods.
+* Trader profitability and risk appetite vary significantly between Fear and Greed market phases.
+* Higher leverage and aggressive positions are more common during Greed periods.
 * Fear-driven markets tend to show reduced trade sizes and more conservative behavior.
 * Market sentiment acts as a strong contextual signal for understanding trader performance.
 
-*(Detailed findings are available in `ds_report.pdf`.)*
+(Detailed findings are available in `ds_report.pdf`.)
 
 
 ---
@@ -92,14 +92,14 @@ ds_usha/
 
  📌 Conclusion
 
-This project demonstrates how combining **market sentiment data** with **historical trading data** can uncover meaningful behavioral patterns. Such insights can be valuable for **risk management**, **strategy optimization**, and **decision-making** in crypto trading environments.
+This project demonstrates how combining market sentiment data with historical trading data can uncover meaningful behavioral patterns. Such insights can be valuable for risk management, strategy optimization, and decision-making in crypto trading environments.
 
 ---
 
 
  👤 Author
 
-**Usha Mandapalli**
+Usha Mandapalli
 Aspiring Data Scientist | Analytics Enthusiast
 
 ---
